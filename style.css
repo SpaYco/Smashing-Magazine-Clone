@@ -1,0 +1,49 @@
+body {
+    background-color: red;
+}
+
+.nav-icons img {
+    width: 36.77px;
+    height: 48.71px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 2em;
+}
+
+.logo {
+width: 207.7px;
+height: 75.53px;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-icons > * {
+    padding: 7px;
+
+}
+
+.search-field button {
+    background: none;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121.84px;
+    height: 49.03px;
+    border-radius: 7px;
+
+}
+
+
+
