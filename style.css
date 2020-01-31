@@ -1,10 +1,12 @@
 body {
-    background-color: red;
+    background-color: #BC3428;
 }
 
 .nav-icons img {
     width: 36.77px;
     height: 48.71px;
+    transform: rotate(-12deg);
+    margin-left: 2px;
 }
 
 nav {
@@ -12,6 +14,7 @@ nav {
     justify-content: space-between;
     align-items: center ;
     padding: 2em;
+    background-color: #D33A2C;
 }
 
 .logo {
@@ -42,8 +45,42 @@ height: 75.53px;
     width: 121.84px;
     height: 49.03px;
     border-radius: 7px;
-
+}
+.nav-icons h4 {
+    font-family: Mija, sans-serif;
+}
+.nav-icons i {
+    font-family: Elena, sans-serif;
+}
+.nav-icons:hover img {
+    animation-name: iconRotate;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
+.nav-icons:hover i, .nav-icons:hover h4 {
+    animation: toBlack;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
 
+@keyframes toBlack {
+    from {
+        color: white;
+    }
+    to {
+        color: #390C09;
+    }
+}
+
+@keyframes iconRotate {
+    from {
+        transform: rotate(-12deg);
+        margin-left: 2px;
+    }
+    to {
+        transform: rotate(0deg);
+        margin-left: 0;
+    }
+}
 
