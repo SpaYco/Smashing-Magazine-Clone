@@ -13,7 +13,7 @@ This Is Design Teardown of the Smashing Magazine Website.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Spayco/Smashing-Magazine-Clone/feature-branch/index.html)
+[Live Demo Link](https://htmlpreview.github.io/?https://github.com/Spayco/Smashing-Magazine-Clone/blob/feature-branch/index.html)
 
 
 ### Usage
