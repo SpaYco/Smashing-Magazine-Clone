@@ -52,3 +52,68 @@ nav {
 .second-blocks p {
     text-align: center;
 }
+
+.third-section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 1800px;
+}
+
+.third-section > div {
+    display: grid;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 105, 105);
+}
+
+.third-section > div:nth-child(5) {
+    background-color: rgb(128, 36, 36);
+}
+
+.fourth-section {
+    width: 90%;
+    height: 651px;
+    margin: 0 auto;
+    margin-top: 2em;
+    border-radius: 25px;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.fifth-section {
+    text-align: center;
+    padding: 3em;
+    background-color: rgb(155, 143, 143);
+    border: 1px solid black;
+}
+
+.sixth-section {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.seventh-section {
+    background-color: rgb(83, 82, 78);
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seventh-section p {
+    margin-left: 2em;
+}
