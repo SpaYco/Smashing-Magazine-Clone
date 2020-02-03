@@ -88,11 +88,9 @@ nav {
 }
 
 .fourth-section {
-  width: 90%;
   height: 651px;
   margin: 0 auto;
   margin-top: 2em;
-  border-radius: 25px;
   background-color: rgb(153, 153, 153);
   text-align: center;
   display: flex;
@@ -208,4 +206,40 @@ footer {
   display: grid;
   justify-content: center;
   align-items: center;
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+footer li {
+  list-style: disc;
+  margin: 1.5em;
+}
+
+.last-link-one {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  
+}
+
+.last-link-two {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.last-link-three {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.last-link-four {
+  grid-column-start: 6;
+  grid-column-end: 7;
 }
