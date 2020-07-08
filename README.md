@@ -30,7 +30,7 @@ This Is Design Teardown of the Smashing Magazine Website.
 - Twitter: [@iSpaYco](https://twitter.com/iSpaYco)
 - Linkedin: [Aziz Mejri](https://www.linkedin.com/in/spayco/)
 
-👤 **Supersebek**
+👤 **Shola**
 
 - Github: [@Eshy10](https://github.com/Eshy10)
 - Twitter: [@AdesholaAdewal6](https://twitter.com/AdesholaAdewal6)
